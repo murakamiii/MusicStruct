@@ -13,6 +13,8 @@
 		7B84A7621F6520490039D7DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B84A7611F6520490039D7DD /* Assets.xcassets */; };
 		7B84A7651F6520490039D7DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B84A7631F6520490039D7DD /* LaunchScreen.storyboard */; };
 		7B84A7701F6520490039D7DD /* MusicStructTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B84A76F1F6520490039D7DD /* MusicStructTests.swift */; };
+		7B84A77C1F655FFA0039D7DD /* MusicStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B84A77B1F655FFA0039D7DD /* MusicStruct.swift */; };
+		7B84A77D1F657EF40039D7DD /* MusicStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B84A77B1F655FFA0039D7DD /* MusicStruct.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,7 @@
 		7B84A76B1F6520490039D7DD /* MusicStructTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicStructTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B84A76F1F6520490039D7DD /* MusicStructTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicStructTests.swift; sourceTree = "<group>"; };
 		7B84A7711F6520490039D7DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B84A77B1F655FFA0039D7DD /* MusicStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicStruct.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +82,7 @@
 			children = (
 				7B84A75A1F6520490039D7DD /* AppDelegate.swift */,
 				7B84A75C1F6520490039D7DD /* ViewController.swift */,
+				7B84A77A1F655FC20039D7DD /* MusicStruct */,
 				7B84A75E1F6520490039D7DD /* Main.storyboard */,
 				7B84A7611F6520490039D7DD /* Assets.xcassets */,
 				7B84A7631F6520490039D7DD /* LaunchScreen.storyboard */,
@@ -94,6 +98,14 @@
 				7B84A7711F6520490039D7DD /* Info.plist */,
 			);
 			path = MusicStructTests;
+			sourceTree = "<group>";
+		};
+		7B84A77A1F655FC20039D7DD /* MusicStruct */ = {
+			isa = PBXGroup;
+			children = (
+				7B84A77B1F655FFA0039D7DD /* MusicStruct.swift */,
+			);
+			name = MusicStruct;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +212,7 @@
 			files = (
 				7B84A75D1F6520490039D7DD /* ViewController.swift in Sources */,
 				7B84A75B1F6520490039D7DD /* AppDelegate.swift in Sources */,
+				7B84A77C1F655FFA0039D7DD /* MusicStruct.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,6 +220,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B84A77D1F657EF40039D7DD /* MusicStruct.swift in Sources */,
 				7B84A7701F6520490039D7DD /* MusicStructTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
