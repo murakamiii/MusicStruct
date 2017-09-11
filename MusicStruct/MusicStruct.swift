@@ -25,7 +25,7 @@ struct Song {
 
     static private func hmsToInt(string: String) -> Int? {
         // ss, mm:ss, hh:mm:ss を許容する
-        let pattern = "(\\d{1,2}:){1,2}\\d{1,2}"
+        let pattern = "(\\d{1,2}:){0,2}\\d{1,2}"
         guard let Regexp = try? NSRegularExpression(pattern: pattern, options:[]),
             Regexp.matches(in: string, options: [], range: NSMakeRange(0, (string as NSString).length)).count == 1 else {
                 return nil

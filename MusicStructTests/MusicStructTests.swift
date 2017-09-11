@@ -64,6 +64,14 @@ class MusicStructTests: XCTestCase {
         XCTAssertNil(Song.init(title: musicTitle,
                                length: musiclength,
                                musicParts: parts))
+        
+        musiclength = "40"
+        parts = [["00:00": "イントロ"]]
+        testSong = Song.init(title: musicTitle,
+                             length: musiclength,
+                             musicParts: parts)!
+        XCTAssertEqual(testSong.length, 40)
+
     }
     
 }
